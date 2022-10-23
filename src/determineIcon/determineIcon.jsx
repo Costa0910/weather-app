@@ -1,18 +1,26 @@
+import lightCloud from "../src/images/LightCloud.png";
+import heavyCloud from "../src/images/HeavyCloud.png";
+import shower from "../src/images/Shower.png";
+import snow from "../src/images/Snow.png";
+import sleet from "../src/images/Sleet.png";
+import clear from "../src/images/Clear.png";
+import lightRain from "../src/images/LightRain.png";
+
 function determineIcon(num) {
   if (num <= 5) {
-    return "../src/images/LightCloud.png";
+    return lightCloud;
   } else if (num <= 11) {
-    return "../src/images/HeavyCloud.png";
+    return heavyCloud;
   } else if (num <= 21) {
-    return "../src/images/Shower.png";
+    return shower;
   } else if (num <= 24) {
-    return "../src/images/Snow.png";
+    return snow;
   } else if (num <= 29) {
-    return "../src/images/Sleet.png";
+    return sleet;
   } else if (num <= 38) {
-    return "../src/images/Clear.png";
+    return clear;
   } else {
-    return "../src/images/LightRain.png";
+    return lightRain;
   }
 }
 
