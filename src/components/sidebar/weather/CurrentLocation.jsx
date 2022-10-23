@@ -1,6 +1,7 @@
 import ContextWeather from "../../../contextWeather/ContextWeather";
 import { useContext } from "react";
 import determineIcon from "../../../determineIcon/determineIcon";
+import backgroundImage from "../../../images/imageChange-removebg-preview.png";
 import {
   CurrentStyle,
   SearchAndMap,
@@ -25,7 +26,7 @@ const CurrentLocation = ({ setNewState }) => {
           my_location
         </span>
       </SearchAndMap>
-      <CurrentCity>
+      <CurrentCity bg={backgroundImage}>
         <img src={todayIcon} alt="image shower" />
         <h1>
           {today.max}

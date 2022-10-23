@@ -1,4 +1,3 @@
-// import WEATHER_DATA_KEY from "../../apiKey";
 import useSWR from "swr";
 import { nanoid } from "nanoid";
 

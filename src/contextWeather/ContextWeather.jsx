@@ -1,4 +1,3 @@
-// import WEATHER_DATA_KEY from "../../apiKey";
 import useWeatherData from "../fetchWeather/fetchWeather";
 import { createContext, useEffect, useState, Suspense } from "react";
 import ErrorBoundary from "../ErrorBoundary";

@@ -42,7 +42,7 @@ export const SearchAndMap = styled.div`
 
 export const CurrentCity = styled.div`
   padding-top: 70px;
-  background: url("../src/images/imageChange-removebg-preview.png");
+  background: url(${(props) => props.bg});
   background-position-y: 150px;
   background-size: contain;
   background-repeat: no-repeat;

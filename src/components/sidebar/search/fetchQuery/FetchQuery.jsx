@@ -1,4 +1,3 @@
-// import WEATHER_DATA_KEY from "../../../../../apiKey";
 import useSWR from "swr";
 import QueryResponse from "./QueryResponse/QueryResponse";
 import { FetchQueryStyle } from "./fetchQuery-style";
