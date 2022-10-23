@@ -29,7 +29,7 @@ export const WeatherProvider = ({ children }) => {
     // get and show user weather
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
-    const url = `http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${
+    const url = `https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${
       import.meta.env.VITE_WEATHER_DATA_KEY
     }&q=${lat}%2C${lon}&toplevel=true`;
     const response = await fetch(url);

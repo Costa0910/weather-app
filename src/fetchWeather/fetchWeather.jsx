@@ -39,7 +39,7 @@ function organizeData(data) {
 }
 function useWeatherData(cityId, temperature) {
   // fetch city weather
-  const url = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${
+  const url = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${
     cityId.key
   }?apikey=${
     import.meta.env.VITE_WEATHER_DATA_KEY

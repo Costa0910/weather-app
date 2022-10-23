@@ -5,7 +5,7 @@ import { FetchQueryStyle } from "./fetchQuery-style";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 function FetchQuery({ query, setNewState }) {
-  const url = `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${
+  const url = `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${
     import.meta.env.VITE_WEATHER_DATA_KEY
   }&q=${query}`;
 
