@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.App {
+  height: fit-content;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "sidebar main main"
+    "sidebar main main"
+    "sidebar main main";
+  grid-template-columns: 1.5fr 3fr;
+}
+
+.sidebar {
+  width: 100%;
+  grid-area: sidebar;
+}
+
+.main {
+  width: 100%;
+  grid-area: main;
+}
+
+@media screen and (max-width: 661px) {
+  .App {
+    height: fit-content;
+    grid-template-areas:
+      "sidebar sidebar sidebar"
+      "main main main"
+      "main main main";
+  }
+
+  .sidebar {
+    height: fit-content;
+  }
+}
