@@ -1,10 +1,10 @@
-import lightCloud from "../src/images/LightCloud.png";
-import heavyCloud from "../src/images/HeavyCloud.png";
-import shower from "../src/images/Shower.png";
-import snow from "../src/images/Snow.png";
-import sleet from "../src/images/Sleet.png";
-import clear from "../src/images/Clear.png";
-import lightRain from "../src/images/LightRain.png";
+import lightCloud from "../images/LightCloud.png";
+import heavyCloud from "../images/HeavyCloud.png";
+import shower from "../images/Shower.png";
+import snow from "../images/Snow.png";
+import sleet from "../images/Sleet.png";
+import clear from "../images/Clear.png";
+import lightRain from "../images/LightRain.png";
 
 function determineIcon(num) {
   if (num <= 5) {
